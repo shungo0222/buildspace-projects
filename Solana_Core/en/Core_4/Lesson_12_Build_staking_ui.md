@@ -47,7 +47,7 @@ First, let's call `useRouter`, don't forget check for those pesky imports.
    
 `const router = useRouter()`
 
-Now jump into the event of this async function, and route to our new page, which we'll call `stake`. We'll also pass long the image since we already got it from the image source, so we don't have to load it again.
+Now jump into the event of this async function, and route to our new page, which we'll call `stake`. We'll also pass along the image since we already got it from the image source, so we don't have to load it again.
     
 ```tsx
 const handleClick: MouseEventHandler<HTMLButtonElement> = useCallback(
